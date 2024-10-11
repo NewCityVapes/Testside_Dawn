@@ -3160,4 +3160,8 @@ details-disclosure > details {
   }
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 

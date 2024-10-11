@@ -1,0 +1,164 @@
+<!-- age-verification-popup.liquid -->
+
+{% capture timenow %}{{ 'now' | date: '%s' }}{% endcapture %}
+{% assign currentTime = timenow | times: 1 %}
+
+{% assign myValue = myValue %}
+
+<div id="value-display" style="display:none">{{ myValue }}</div>
+
+<!-- {% if myValue > currentTime %}  {% endif %} -->
+
+<div id="age-verification-popup" class="age-verification-popup" style="display: none">
+  <div class="age-verification-content">
+    <div class="logo-container">
+      <!-- Add your logo image here -->
+      <img
+        src="https://cdn.shopify.com/s/files/1/0758/1433/8851/files/NCV_Logo_High_Resolution_Beige.png?v=1690925690"
+        alt="Logo"
+      >
+    </div>
+    <h2>Age Verification</h2>
+    <p>
+      By clicking 'Yes,' you confirm that you are 18 years of age or older. You understand and acknowledge the Terms and
+      Conditions and agree to access NewCityVapes.com responsibly.
+    </p>
+    <div class="buttons-container">
+      <button id="age-verification-yes">YES</button>
+      <button id="age-verification-no">NO</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .age-verification-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 9999;
+  }
+
+  .age-verification-content {
+    color: #fff;
+    max-width: 100%; /* Increased max-width for a larger popup */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .age-verification-content .logo-container {
+    margin-bottom: 20px;
+  }
+
+  .age-verification-content .logo-container img {
+    max-width: 80%; /* Increased max-width for a larger logo */
+    height: auto;
+  }
+
+  .age-verification-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .age-verification-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 80%;
+
+     text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+  .age-verification-content .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px; /* Added margin-top for better spacing */
+  }
+
+  .age-verification-content button {
+    padding: 12px 30px; /* Increased padding for larger buttons */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .age-verification-content #age-verification-yes {
+    background-color: #BD9D64;
+    color: #fff;
+  }
+
+  .age-verification-content #age-verification-no {
+    background-color: #E5E5E5;
+    color: #fff;
+  }
+
+  .age-verification-content button:hover {
+    opacity: 0.9;
+  }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+
+      let myValue = localStorage.getItem("myValue");
+
+
+
+  // Display the value on the page
+  const valueDisplay = document.getElementById("value-display");
+
+  valueDisplay.textContent = myValue;
+
+
+
+
+    // Get references to HTML elements
+    const ageVerificationPopup = document.getElementById("age-verification-popup");
+    const ageVerificationYes = document.getElementById("age-verification-yes");
+    const ageVerificationNo = document.getElementById("age-verification-no");
+
+    // Check if the user has already verified their age
+    const ageVerified = localStorage.getItem("ageVerified");
+    const currentTime = new Date().getTime();
+    const expirationTime = Number(localStorage.getItem("ageVerificationExpiration"));
+   myValue = expirationTime;
+
+    // Display age verification popup if needed
+    //  if (!ageVerified  || currentTime > expirationTime) {
+   if ( currentTime > expirationTime ) {
+     ageVerificationPopup.style.display = "flex";
+   }
+
+    // Handle click on "Yes" button
+    ageVerificationYes.addEventListener("click", function () {
+      ageVerificationPopup.style.display = "none";
+      const expirationTime = currentTime + 4320000; // Set expiration to 2 hour from now 720000 (currently 30 seconds )
+      localStorage.setItem("ageVerified", true);
+      localStorage.setItem("ageVerificationExpiration", expirationTime);
+
+
+    localStorage.setItem("myValue", myValue);
+    valueDisplay.textContent = myValue;
+
+    });
+
+    // Handle click on "No" button
+    ageVerificationNo.addEventListener("click", function () {
+      // Redirect the user to an exit page or perform any other action
+      location.href = 'https://www.cartersoshkosh.ca/?cm_mmc=pla.car.ca.visitation.Carters+-+CA+-+Shopping+-+PMAX+-+Catch-All.71700000112026718...google..pmax&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buKnnCdVLfenc4xV2RtutgcTyINK_zfB6Gx8tKC1KjIgOg0qerL1yvwaAucdEALw_wcB&gclsrc=aw.ds';
+    });
+  });
+</script>

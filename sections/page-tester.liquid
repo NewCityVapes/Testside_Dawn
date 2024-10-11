@@ -1,0 +1,43 @@
+<head>
+  <title>Disposable Comparison Tool</title>
+  <!-- Include your styles and scripts here -->
+</head>
+<body>
+  <header>
+    <h1>Disposable Comparison Tool</h1>
+  </header>
+  <div class="dropdown-container">
+
+    <div class="product-heading">
+  <h2>{{ section.settings.custom_heading }}</h2>
+</div>
+    <select id="dispo1" class="dropdown">
+      <option value="geekbar">Geekbar</option>
+      <option value="elbar">Elbar</option>
+      <option value="allo">Allo</option>
+    </select>
+    <select id="dispo2" class="dropdown">
+      <option value="geekbar">Geekbar</option>
+      <option value="elbar">Elbar</option>
+      <option value="allo">Allo</option>
+    </select>
+  </div>
+  <h2>Dispo1 vs. Dispo2</h2>
+  <div id="comparison-results">
+    <!-- Comparison results will be displayed here -->
+  </div>
+  <!-- Include your JavaScript logic here -->
+</body>
+
+{% schema %}
+  {
+    "name": "Section name",
+    "settings": []
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

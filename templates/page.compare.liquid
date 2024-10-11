@@ -1,0 +1,104 @@
+<!-- page.compare.liquid -->
+
+{% assign url_path = request.path %}
+{% assign comparison_path = url_path | remove: '/compare/' %}
+{% assign product_handles = comparison_path | split: '-vs-' %}
+
+
+
+{% assign product1_handle = product_handles[0] %}
+{% assign product2_handle = product_handles[1] %}
+
+{% if product1_handle and product2_handle %}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Automatically trigger the comparison for the products
+    comparePrices('{{ product1_handle }}', '{{ product2_handle }}');
+  });
+</script>
+{% endif %}
+
+<div class="product-comparison">
+  <h1>Product Comparison</h1>
+  <form id="comparison-form">
+    <select id="product1-dropdown" name="product1">
+      <!-- Options will be added dynamically -->
+    </select>
+    
+    <select id="product2-dropdown" name="product2">
+      <!-- Options will be added dynamically -->
+    </select>
+  </form>
+
+  <div id="comparison-result">
+    <!-- Price comparison will be displayed here -->
+  </div>
+</div>
+
+{% assign url_path = request.path %}
+{% assign product1_handle = url_path | split: "-vs-" | first %}
+{% assign product2_handle = url_path | split: "-vs-" | last %}
+
+{% if product1_handle and product2_handle %}
+<script>
+  comparePrices('{{ product1_handle }}', '{{ product2_handle }}');
+</script>
+{% endif %}
+
+<script>
+  fetch('/products.json?limit=250') // Adjust limit as needed
+    .then(response => response.json())
+    .then(data => {
+      let disposableProducts = data.products.filter(product => product.product_type === 'DISPOSABLES');
+      let product1Dropdown = document.getElementById('product1-dropdown');
+      let product2Dropdown = document.getElementById('product2-dropdown');
+
+      disposableProducts.forEach(product => {
+         console.log('Product: ', product.title); // Debugging line
+        let option1 = new Option(product.title, product.handle);
+        let option2 = new Option(product.title, product.handle);
+        product1Dropdown.add(option1);
+        product2Dropdown.add(option2);
+      });
+    });
+
+
+  document.getElementById('comparison-form').addEventListener('change', function() {
+  let product1Handle = document.getElementById('product1-dropdown').value;
+  let product2Handle = document.getElementById('product2-dropdown').value;
+  
+  if(product1Handle && product2Handle) {
+    comparePrices(product1Handle, product2Handle);
+  }
+});
+
+function comparePrices(product1Handle, product2Handle) {
+  // Fetch both products by their handle
+   console.log('Comparing: ', product1Handle, product2Handle); // Debugging line
+  Promise.all([
+    fetch(`/products/${product1Handle}.json`),
+    fetch(`/products/${product2Handle}.json`)
+  ])
+  .then(responses => Promise.all(responses.map(res => res.json())))
+  .then(products => {
+    let product1Price = products[0].product.variants[0].price;
+    let product2Price = products[1].product.variants[0].price;
+
+    document.getElementById('comparison-result').innerHTML = `
+      <p>${products[0].product.title}: $${product1Price}</p>
+      <p>${products[1].product.title}: $${product2Price}</p>
+      <p>${product1Price < product2Price ? products[0].product.title + ' is cheaper' : products[1].product.title + ' is cheaper'}</p>
+    `;
+
+    updateUrl(product1Handle, product2Handle);
+  });
+}
+
+  function updateUrl(product1Handle, product2Handle) {
+  let newUrl = `/compare/${product1Handle}-vs-${product2Handle}`;
+  window.history.pushState({}, '', newUrl);
+}
+
+
+  
+</script>

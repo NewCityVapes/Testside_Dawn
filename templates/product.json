@@ -1,1 +1,323 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"judge_me_reviews_preview_badge_cyMLJW":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":false}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["vendor","title","judge_me_reviews_preview_badge_cyMLJW","price","variant_picker","quantity_selector","buy_buttons","description","share"],"settings":{"enable_sticky_info":true,"media_size":"small","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","media_position":"left","image_zoom":"hover","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"1725674026fc0eadd3":{"type":"apps","blocks":{"judge_me_reviews_review_widget_hTgEth":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}}},"block_order":["judge_me_reviews_review_widget_hTgEth"],"settings":{"include_margins":true}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":5,"columns_desktop":5,"color_scheme":"background-1","image_ratio":"square","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"judgeme_section_review_widget_f557":{"type":"apps","settings":{"include_margins":true}},"collapsible_content_WjFQhf":{"type":"collapsible-content","blocks":{"collapsible_row_eTC9K7":{"type":"collapsible_row","settings":{"heading":"Free Shipping","icon":"none","row_content":"<p>Free shipping is available on orders over $99 across Canada. This applies to both regular and express shipping (extra costs may apply). The following cities in Quebec and New Brunswick are eligible for express shipping:<\/p><ul><li><strong>Quebec<\/strong>: Quebec City, Montreal, Gatineau, Sherbrooke, Trois-Rivieres, Saguenay, Granby, Laval, Drummondville, Longueuil, Levis, Saint-Hyacinthe<\/li><li><strong>New Brunswick<\/strong>: Moncton, Saint John, Fredericton, Miramichi, Dieppe, Sackville, Oromocto<\/li><\/ul><p>We will use the shipping method available at the time. Some free shipping options may not offer tracking, and no additional insurance is applied to free shipping packages.<\/p><p>At checkout, you can choose from a selection of carriers. We reserve the right to switch carriers if we believe it will result in faster or more cost-effective delivery for Digital Imports.<\/p><p>Free shipping is only available when all items come from the same warehouse. If your items are out of stock at one warehouse and need to be shipped from different locations, we will contact you to arrange for either a replacement item or additional delivery.<\/p>","page":""}},"collapsible_row_8x7aYn":{"type":"collapsible_row","settings":{"heading":"Age Verification","icon":"none","row_content":"<p>We always include the Proof of Age (18+) option with every package.<\/p><p>We use this option for every shipment, so each package will require a signature when it is delivered. If you are not home when delivery is attempted, we will return the package and try to redeliver it later. If we believe that you made a mistake that prevented the delivery (such as wrong address or underage), we may deduct or charge more, even if it is free shipping.<\/p><p>Package costs incurred when packages are returned to the sender due to an inability to identify proof of age will <strong>NOT<\/strong> be reimbursed.<\/p><p>We are unable to delete this option, even if your age has already been validated. In compliance with Canadian law, each shipment leaving our facility will need to have its age verified. Only the individual indicated in the \"Shipping\" fields can pick up the product. The package will <strong>NOT<\/strong> be released to another person by the carrier.<\/p>","page":""}},"collapsible_row_8QWMte":{"type":"collapsible_row","settings":{"heading":"Next-Day Local Shipping","icon":"none","row_content":"<p>Free Local deliveries are available next-day on orders over CA$50 for the following cities in the GTA and Montreal :<\/p><p>Ajax<br\/>Markham<br\/>Pickering<br\/>Aurora<br\/>Milton<br\/>Richmond Hill<br\/>Bramptom<br\/>Mississauga<br\/>Scarborough<br\/>Burlington<br\/>Newmarket<br\/>Toronto<br\/>Coleraine<br\/>North York<br\/>Vaughan<br\/>Courtice<br\/>Oakville<br\/>Whitby<br\/>Hamilton<br\/>Oshawa<\/p><p>Montreal<\/p>","page":""}},"collapsible_row_rCTaka":{"type":"collapsible_row","settings":{"heading":"Order Processing and Delivery","icon":"none","row_content":"<p>We handle all orders the same day, and we deliver them within the day you order, as long as you are within our service area (GTA\/Montreal).<\/p><p>In the case of weekends and major holidays, if you receive a tracking number, your order is prepared for shipment, but it is not given to a shipping carrier until the next business day.<\/p><p>In the event that you have any queries or reservations about your order, we have the right to require further time for processing. We will make every effort to contact you by phone or email only if it is absolutely required. During checkout, please make sure you enter your most recent contact information.<\/p><p>Any unexpected incidents or delays caused by weather, we will inform you via phone or email.<\/p>","page":""}},"collapsible_row_wxPMUc":{"type":"collapsible_row","settings":{"heading":"Courier Restriction","icon":"none","row_content":"<p>Most carriers do not deliver packages on Saturday, Sunday, or major holidays.<\/p><p>For shipping, we use UPS and Canada Post.<\/p>","page":""}},"collapsible_row_qfgWEm":{"type":"collapsible_row","settings":{"heading":"Tracking","icon":"none","row_content":"<p>During order processing, tracking numbers are automatically produced when your shipping label is printed. The email address you provide during checkout will thereafter receive an email with the tracking number and the subject \"Your order has shipped!\"<br\/><br\/>If you did not receive a tracking number, please check the \"spam\" folder in your inbox.<br\/><br\/>You can also get all tracking data immediately by signing into \"My Account.\"<\/p>","page":""}},"collapsible_row_KwXHwK":{"type":"collapsible_row","settings":{"heading":"Order Changes & Cancellations","icon":"none","row_content":"<p>Order cancellations and modifications are available. As long as the order hasn't been dispatched yet, please get in touch with us as soon as you can, and we'll try our best to accommodate any adjustments. If your order has been delivered, you must return the package to us before you may receive a refund; shipping fees are not refundable.<br\/><br\/>You can only cancel an order for electronic cigarette liquid (also known as e-juice) if it hasn't been manufactured yet. We are unable to cancel, refund, or credit juice that has already been generated, even if it is still in our facilities, because we normally mix to order.<\/p>","page":""}}},"block_order":["collapsible_row_eTC9K7","collapsible_row_8x7aYn","collapsible_row_8QWMte","collapsible_row_rCTaka","collapsible_row_wxPMUc","collapsible_row_qfgWEm","collapsible_row_KwXHwK"],"settings":{"caption":"","heading":"Shipping Policy","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"background-2","container_color_scheme":"background-2","open_first_collapsible_row":true,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":0,"padding_bottom":0}},"collapsible_content_dzWVrA":{"type":"collapsible-content","blocks":{"collapsible_row_tJ9JLw":{"type":"collapsible_row","settings":{"heading":"Warranty","icon":"none","row_content":"<p><strong>REGULATED MODS AND REBUILDABLES<\/strong><\/p><p>Mods and Rebuildables are not intended for beginners. Use at your own risk. These devices carry only a warranty from the manufacturer. Due to the nature of these devices, products in the Mods & ebuildables section of the website are final sale unless mentioned otherwise. Products in the regulated mods section of this category carry a manufacturers warranty. <strong>WARRANTY DOES NOT COVER MISUSE, NEGLECT, OR PHYSICAL DAMAGE<\/strong>. 30 days manufacturer's hardware defect.<\/p><p><br\/><\/p><p><strong>ALL OTHER HARDWARE\/ACCESSORIES<\/strong><\/p><p><strong><br\/><\/strong>All other hardware and accessories, due to the nature of the products, are subject to final sales and 30 days manufacture warranty. This includes (but not limited to), rebuildable tank atomizers\/clearomizers, build kits, mods, rdas, and chargers. Coils are considered as a consumerables which are final sale. <strong>WARRANTY DOES NOT COVER MISUSE, NEGLECT, OR PHYSICAL DAMAGE.<\/strong> 30 days manufacturer's hardware defect.<\/p>","page":""}},"collapsible_row_wNb8cW":{"type":"collapsible_row","settings":{"heading":"Restocking Fee","icon":"none","row_content":"<p>There will be a 10% restocking fee on all returns and exchanges. This includes shipments that the shipping courier returns to us after you don't sign for them when they arrive. Only products still<strong>SEALED<\/strong>by the manufacturer are eligible for returns. Items that are not returned to us in their original unopened packaging cannot be accepted. Please note that no compensation will be granted and the box will be sent back to you at your cost if products are returned unfinished or not in the same condition as when they were supplied to you.<\/p>","page":""}},"collapsible_row_qYPept":{"type":"collapsible_row","settings":{"heading":"Underage Purchasing","icon":"none","row_content":"<p>We use the age verification service on every package we dispatch. This implies that you have to confirm that you are of legal smoking age in your province, state, or nation before the carrier will release the shipment. (If UPS is your preference, UPS mandates that you be 19 years old regardless of where the order is placed.) The products will be returned to us by the carrier if they are unable to verify your age. Final sale products are not returnable once the items are received back. If an item qualifies for a refund, it will be issued less any applicable shipping costs for both the carrier's return shipment to us and the item's delivery to you, plus a fifty percent (50%) restocking fee. This is absolutely non-negotiable. If you are underage, please do not order items; you will lose money doing so.<\/p>","page":""}},"collapsible_row_KUnYKT":{"type":"collapsible_row","settings":{"heading":"Disposable Vapes","icon":"none","row_content":"<p>There is no warranty with disposable vaporizers. They are never returnable or exchangeable; they are always final sales. If, within 24 hours of the shipment delivery time, your item comes dead on arrival, you must notify us with a video that includes the original packing.<\/p>","page":""}},"collapsible_row_VLtmNk":{"type":"collapsible_row","settings":{"heading":"Wrong or Missing Items","icon":"none","row_content":"<p>Kindly contact customer support to submit a claim within 48 hours of receiving your item if we make a mistake in delivering your purchase. The simplest method to start a claim is to send a quick email with an error report to orders@digitalimports.ca. We really regret for any trouble caused and promise to promptly address any fulfillment errors.<br\/><br\/>Items that were received incorrectly must be sent back to us. We provide you a pre-paid return label so you may ship the product(s) back for a refund. We retain the right to charge the original payment method you used for your purchase for the full cost of the item(s) if we do not receive them within 14 days.<\/p>","page":""}},"collapsible_row_zppKkP":{"type":"collapsible_row","settings":{"heading":"Refunds","icon":"none","row_content":"<p>Other than the original credit card that was used to complete your transaction, we are unable to give refunds for any other payment method.<br\/><br\/>Refunds cannot be given out in the form of checks, cash, or debit cards.<br\/><br\/>Refunds are processed within 7 business days after the returned goods are received and inspected. An email notice verifying your reimbursement will be sent to you.<br\/><br\/>Please take up to one billing cycle for a refund to show up on your statement, depending on the bank that issued your card.<br\/><br\/>After receiving and inspecting the returned goods, we, where appropriate, offer store credit in the form of reward points for the amount of the returned product or products.<\/p>","page":""}},"collapsible_row_yDDVhn":{"type":"collapsible_row","settings":{"heading":"Non-returnable & Final Sale Items","icon":"none","row_content":"<p>Atomizer tanks, rebuildable atomizers (unless Dead-On-Arrival), mods without any electrical parts, battery cells, replacement parts, disposable vape pens, accessories, and electronic cigarette liquids are also not returnable.<br\/><br\/>Accidents and user errors, such as overtightening atomizers, stripping threads, broken glass, physical damage, dropping products, water damage, exposure to extreme temperatures, disregarding usage instructions provided by the manufacturer, and any misuse of mechanical or electronic products, are not covered by our 14-day return policy.<\/p><p><strong>What is not covered by our warranty?<\/strong><\/p><ul><li>E-Liquids <strong>(FINAL SALE)<\/strong><\/li><li>Batteries<\/li><li>Disposable Vapes<\/li><li>Coils<\/li><li>Stripped or Damaged threads<\/li><li>Driptips<\/li><\/ul>","page":""}}},"block_order":["collapsible_row_tJ9JLw","collapsible_row_wNb8cW","collapsible_row_qYPept","collapsible_row_KUnYKT","collapsible_row_VLtmNk","collapsible_row_zppKkP","collapsible_row_yDDVhn"],"settings":{"caption":"","heading":"Returns & Warranty","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":0,"padding_bottom":0}}},"order":["main","1725674026fc0eadd3","related-products","judgeme_section_review_widget_f557","collapsible_content_WjFQhf","collapsible_content_dzWVrA"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "judge_me_reviews_preview_badge_cyMLJW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_cyMLJW",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1725674026fc0eadd3": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_hTgEth": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_hTgEth"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "judgeme_section_review_widget_f557": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_WjFQhf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eTC9K7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Free Shipping",
+            "icon": "none",
+            "row_content": "<p>Free shipping is available on orders over $99 across Canada. This applies to both regular and express shipping (extra costs may apply). The following cities in Quebec and New Brunswick are eligible for express shipping:</p><ul><li><strong>Quebec</strong>: Quebec City, Montreal, Gatineau, Sherbrooke, Trois-Rivieres, Saguenay, Granby, Laval, Drummondville, Longueuil, Levis, Saint-Hyacinthe</li><li><strong>New Brunswick</strong>: Moncton, Saint John, Fredericton, Miramichi, Dieppe, Sackville, Oromocto</li></ul><p>We will use the shipping method available at the time. Some free shipping options may not offer tracking, and no additional insurance is applied to free shipping packages.</p><p>At checkout, you can choose from a selection of carriers. We reserve the right to switch carriers if we believe it will result in faster or more cost-effective delivery for Digital Imports.</p><p>Free shipping is only available when all items come from the same warehouse. If your items are out of stock at one warehouse and need to be shipped from different locations, we will contact you to arrange for either a replacement item or additional delivery.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8x7aYn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Age Verification",
+            "icon": "none",
+            "row_content": "<p>We always include the Proof of Age (18+) option with every package.</p><p>We use this option for every shipment, so each package will require a signature when it is delivered. If you are not home when delivery is attempted, we will return the package and try to redeliver it later. If we believe that you made a mistake that prevented the delivery (such as wrong address or underage), we may deduct or charge more, even if it is free shipping.</p><p>Package costs incurred when packages are returned to the sender due to an inability to identify proof of age will <strong>NOT</strong> be reimbursed.</p><p>We are unable to delete this option, even if your age has already been validated. In compliance with Canadian law, each shipment leaving our facility will need to have its age verified. Only the individual indicated in the \"Shipping\" fields can pick up the product. The package will <strong>NOT</strong> be released to another person by the carrier.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8QWMte": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Next-Day Local Shipping",
+            "icon": "none",
+            "row_content": "<p>Free Local deliveries are available next-day on orders over CA$50 for the following cities in the GTA and Montreal :</p><p>Ajax<br/>Markham<br/>Pickering<br/>Aurora<br/>Milton<br/>Richmond Hill<br/>Bramptom<br/>Mississauga<br/>Scarborough<br/>Burlington<br/>Newmarket<br/>Toronto<br/>Coleraine<br/>North York<br/>Vaughan<br/>Courtice<br/>Oakville<br/>Whitby<br/>Hamilton<br/>Oshawa</p><p>Montreal</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rCTaka": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Order Processing and Delivery",
+            "icon": "none",
+            "row_content": "<p>We handle all orders the same day, and we deliver them within the day you order, as long as you are within our service area (GTA/Montreal).</p><p>In the case of weekends and major holidays, if you receive a tracking number, your order is prepared for shipment, but it is not given to a shipping carrier until the next business day.</p><p>In the event that you have any queries or reservations about your order, we have the right to require further time for processing. We will make every effort to contact you by phone or email only if it is absolutely required. During checkout, please make sure you enter your most recent contact information.</p><p>Any unexpected incidents or delays caused by weather, we will inform you via phone or email.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wxPMUc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Courier Restriction",
+            "icon": "none",
+            "row_content": "<p>Most carriers do not deliver packages on Saturday, Sunday, or major holidays.</p><p>For shipping, we use UPS and Canada Post.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qfgWEm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Tracking",
+            "icon": "none",
+            "row_content": "<p>During order processing, tracking numbers are automatically produced when your shipping label is printed. The email address you provide during checkout will thereafter receive an email with the tracking number and the subject \"Your order has shipped!\"<br/><br/>If you did not receive a tracking number, please check the \"spam\" folder in your inbox.<br/><br/>You can also get all tracking data immediately by signing into \"My Account.\"</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KwXHwK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Order Changes & Cancellations",
+            "icon": "none",
+            "row_content": "<p>Order cancellations and modifications are available. As long as the order hasn't been dispatched yet, please get in touch with us as soon as you can, and we'll try our best to accommodate any adjustments. If your order has been delivered, you must return the package to us before you may receive a refund; shipping fees are not refundable.<br/><br/>You can only cancel an order for electronic cigarette liquid (also known as e-juice) if it hasn't been manufactured yet. We are unable to cancel, refund, or credit juice that has already been generated, even if it is still in our facilities, because we normally mix to order.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eTC9K7",
+        "collapsible_row_8x7aYn",
+        "collapsible_row_8QWMte",
+        "collapsible_row_rCTaka",
+        "collapsible_row_wxPMUc",
+        "collapsible_row_qfgWEm",
+        "collapsible_row_KwXHwK"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Shipping Policy",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_dzWVrA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_tJ9JLw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Warranty",
+            "icon": "none",
+            "row_content": "<p><strong>REGULATED MODS AND REBUILDABLES</strong></p><p>Mods and Rebuildables are not intended for beginners. Use at your own risk. These devices carry only a warranty from the manufacturer. Due to the nature of these devices, products in the Mods & ebuildables section of the website are final sale unless mentioned otherwise. Products in the regulated mods section of this category carry a manufacturers warranty. <strong>WARRANTY DOES NOT COVER MISUSE, NEGLECT, OR PHYSICAL DAMAGE</strong>. 30 days manufacturer's hardware defect.</p><p><br/></p><p><strong>ALL OTHER HARDWARE/ACCESSORIES</strong></p><p><strong><br/></strong>All other hardware and accessories, due to the nature of the products, are subject to final sales and 30 days manufacture warranty. This includes (but not limited to), rebuildable tank atomizers/clearomizers, build kits, mods, rdas, and chargers. Coils are considered as a consumerables which are final sale. <strong>WARRANTY DOES NOT COVER MISUSE, NEGLECT, OR PHYSICAL DAMAGE.</strong> 30 days manufacturer's hardware defect.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wNb8cW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Restocking Fee",
+            "icon": "none",
+            "row_content": "<p>There will be a 10% restocking fee on all returns and exchanges. This includes shipments that the shipping courier returns to us after you don't sign for them when they arrive. Only products still<strong>SEALED</strong>by the manufacturer are eligible for returns. Items that are not returned to us in their original unopened packaging cannot be accepted. Please note that no compensation will be granted and the box will be sent back to you at your cost if products are returned unfinished or not in the same condition as when they were supplied to you.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qYPept": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Underage Purchasing",
+            "icon": "none",
+            "row_content": "<p>We use the age verification service on every package we dispatch. This implies that you have to confirm that you are of legal smoking age in your province, state, or nation before the carrier will release the shipment. (If UPS is your preference, UPS mandates that you be 19 years old regardless of where the order is placed.) The products will be returned to us by the carrier if they are unable to verify your age. Final sale products are not returnable once the items are received back. If an item qualifies for a refund, it will be issued less any applicable shipping costs for both the carrier's return shipment to us and the item's delivery to you, plus a fifty percent (50%) restocking fee. This is absolutely non-negotiable. If you are underage, please do not order items; you will lose money doing so.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KUnYKT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Disposable Vapes",
+            "icon": "none",
+            "row_content": "<p>There is no warranty with disposable vaporizers. They are never returnable or exchangeable; they are always final sales. If, within 24 hours of the shipment delivery time, your item comes dead on arrival, you must notify us with a video that includes the original packing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VLtmNk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wrong or Missing Items",
+            "icon": "none",
+            "row_content": "<p>Kindly contact customer support to submit a claim within 48 hours of receiving your item if we make a mistake in delivering your purchase. The simplest method to start a claim is to send a quick email with an error report to orders@digitalimports.ca. We really regret for any trouble caused and promise to promptly address any fulfillment errors.<br/><br/>Items that were received incorrectly must be sent back to us. We provide you a pre-paid return label so you may ship the product(s) back for a refund. We retain the right to charge the original payment method you used for your purchase for the full cost of the item(s) if we do not receive them within 14 days.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zppKkP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Refunds",
+            "icon": "none",
+            "row_content": "<p>Other than the original credit card that was used to complete your transaction, we are unable to give refunds for any other payment method.<br/><br/>Refunds cannot be given out in the form of checks, cash, or debit cards.<br/><br/>Refunds are processed within 7 business days after the returned goods are received and inspected. An email notice verifying your reimbursement will be sent to you.<br/><br/>Please take up to one billing cycle for a refund to show up on your statement, depending on the bank that issued your card.<br/><br/>After receiving and inspecting the returned goods, we, where appropriate, offer store credit in the form of reward points for the amount of the returned product or products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yDDVhn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Non-returnable & Final Sale Items",
+            "icon": "none",
+            "row_content": "<p>Atomizer tanks, rebuildable atomizers (unless Dead-On-Arrival), mods without any electrical parts, battery cells, replacement parts, disposable vape pens, accessories, and electronic cigarette liquids are also not returnable.<br/><br/>Accidents and user errors, such as overtightening atomizers, stripping threads, broken glass, physical damage, dropping products, water damage, exposure to extreme temperatures, disregarding usage instructions provided by the manufacturer, and any misuse of mechanical or electronic products, are not covered by our 14-day return policy.</p><p><strong>What is not covered by our warranty?</strong></p><ul><li>E-Liquids <strong>(FINAL SALE)</strong></li><li>Batteries</li><li>Disposable Vapes</li><li>Coils</li><li>Stripped or Damaged threads</li><li>Driptips</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_tJ9JLw",
+        "collapsible_row_wNb8cW",
+        "collapsible_row_qYPept",
+        "collapsible_row_KUnYKT",
+        "collapsible_row_VLtmNk",
+        "collapsible_row_zppKkP",
+        "collapsible_row_yDDVhn"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Returns & Warranty",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1725674026fc0eadd3",
+    "related-products",
+    "judgeme_section_review_widget_f557",
+    "collapsible_content_WjFQhf",
+    "collapsible_content_dzWVrA"
+  ]
+}

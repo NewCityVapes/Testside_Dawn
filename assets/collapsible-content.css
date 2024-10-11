@@ -118,4 +118,9 @@
       padding-left: 7rem;
     }
   }
+
+  .underline{
+
+    text-decoration: underline;
+  }
 }

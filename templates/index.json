@@ -59,7 +59,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "SHOP STLTH NEXA",
-            "link": "shopify://collections/stlth",
+            "link": "shopify://collections/stlth-vape",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -349,7 +349,7 @@
         "featured_collection_zRzc6J": {
           "type": "featured_collection",
           "settings": {
-            "collection": "stlth"
+            "collection": "stlth-vape"
           }
         },
         "featured_collection_39TWCk": {
